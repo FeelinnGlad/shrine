@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	font: bold 20px "a_LCDNova", serif;
+}
+
+img {
+	width: 400px;
+	margin-bottom: 20px;
+}
+
+#wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	/*text-align: center;*/
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	color: #4b4b4b;
+	margin-top: 20px;
+}
+
+@font-face { font-family: Techno28; src: url('../media/techno28.ttf'); }
+
+span {
+	color: #1b006a;
+	font-family: Techno28, serif;
+	font-size: 20px
+}
+
+#updates {
+	font-family: Techno28, serif;
+	border: 2px solid #1b006a;
+	color: #1b006a;
+}

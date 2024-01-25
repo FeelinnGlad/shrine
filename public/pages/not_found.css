@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	font: bold 20px "a_LCDNova", serif;
+}
+
+img {
+	width: 400px;
+	margin-bottom: 20px;
+}
+
+#wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	text-align: center;
+}
+
+#content {
+	flex-direction: column;
+	color: #4b4b4b;
+}
